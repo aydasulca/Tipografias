@@ -1,0 +1,38 @@
+.box {
+  width: 220px;
+  height: 270px;
+  box-shadow: 8px 10px 14px -8px #CECECE;
+  float: left;
+  text-align: center;
+  background-color: #F4F1F1;
+  color: #777777;
+  padding-top: 30px;
+  margin: 5px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+h5 {
+  color: #777777;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.box:hover {
+  padding-top: 20px;
+  color: white;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  color: #7AA2F4;
+  -webkit-transition: all .0 .5s ease-in-out;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+}
